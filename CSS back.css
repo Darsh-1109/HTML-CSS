@@ -1,0 +1,16 @@
+html{
+    background-color: aqua;
+    background:linear-gradient(yellow,red);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+
+    color: antiquewhite;
+    font-family: serif;
+    background-image: url("image.jpeg");
+    
+}
+#d{
+    background:linear-gradient(to left, grey,black)
+
+}

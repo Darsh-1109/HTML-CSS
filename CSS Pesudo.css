@@ -1,0 +1,31 @@
+a:link{
+    color:rgb(99, 235, 50)
+}
+a:visited{
+    color: rgb(255, 47, 47);
+}
+
+button:hover{
+    background-color:rgb(242, 0, 255) ;
+    color:rgb(0, 0, 0)
+}
+button:active{
+    background-color:rgb(133, 26, 126) ;
+    color:rgb(0, 0, 0)
+}
+
+li:first-child{
+    color: blue;
+}
+
+li:last-child{
+    background-color: black;
+    color: antiquewhite;
+}
+
+li:nth-child(even){
+    background-color: aquamarine;
+
+}
+
+

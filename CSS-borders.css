@@ -1,0 +1,22 @@
+p{
+    border-style: outset;
+    padding: 5px;
+    border-color: green;
+    border-width: 10px;
+    border-radius: 5px;
+
+}
+h1{
+    border-bottom-style: dotted;
+    border-top-style: dotted ;
+
+    padding: 5px;
+    border-color: green;
+    border-width: 5px 5px 2px 10px;
+    border-radius: 1px;
+
+}
+body{
+    background-color: black;
+    color: bisque;
+}

@@ -1,0 +1,26 @@
+p{
+    width:100px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+
+    /*
+    animation-name: coloranimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+*/
+  animation-name: rotationanimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;  
+    
+}
+@keyframes coloranimation{
+    0%{background-color: red;}
+    20%{background-color: orangered;}
+    70%{background-color: orange;}
+    100%{background-color: yellow;}
+}
+
+@keyframes rotationanimation{
+    100%{transform:rotateY(360deg)}
+}
